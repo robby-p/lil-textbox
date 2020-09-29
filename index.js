@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 function textBox(lines = [], { padding = 10, margin = 2, print = true } = {}) {
   const getWidth = () =>
     lines.reduce((p, n) => (n.length > p ? n.length : p), 0) + padding * 2;
