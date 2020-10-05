@@ -6,7 +6,7 @@ easy tiny zero dep terminal box maker
 
 `lilTextbox(lines,{ padding, margin, print }){ ... }`
 
-- lines: Array<String>, each line of text. try `\`Hello World\``.split("\n");
+- lines: Array<String>, each line of text. 
 - padding: number, padding from edges, will automatically shrink before text is truncated; default 10
 - margin: number, basically indent; default 2
 - print: bool, true console.log's, false returns the resulting string; default true
